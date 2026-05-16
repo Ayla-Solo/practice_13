@@ -7,4 +7,4 @@ for r in range(len(numbers) + 1):
     subsets = itertools.combinations(numbers, r)
     # генерируем все комбинации длины r
     result.extend(subsets)
-print(list(result))
+print(result)
